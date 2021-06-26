@@ -3968,6 +3968,18 @@ body.is-loading #banner:after {
   #about {
     padding: 2em 0 0.1em 0;
   }
+
+  #about .about-grid-item {
+    min-height: auto;
+  }
+
+  #about .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .notebook {
+    transform: none;
+  }
 }
 
 /* Moving text  */
