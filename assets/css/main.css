@@ -3792,7 +3792,7 @@ body.is-loading #banner:after {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
+  grid-gap: 2em;
 }
 
 #blog a {
@@ -3802,7 +3802,7 @@ body.is-loading #banner:after {
 #blog p {
   margin: 0;
   font-size: 1em;
-  padding: 10px 45px 28px;
+  padding: 9px 17px 17px;
   text-align: center;
   color: #0c0c0c;
 }
