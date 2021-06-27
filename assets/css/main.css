@@ -4004,3 +4004,10 @@ body.is-loading #banner:after {
   display: inline-block;
   line-height: 1em;
 }
+
+@media screen and (max-width: 736px) {
+  .ml9 .letter {
+    font-size: 13px;
+  }
+}
+
