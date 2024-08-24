@@ -1,272 +1,458 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Majiri Eyowel - Web Developer - Lagos State.</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Majiri Eyowel - Web Developer - Lagos State, Nigeria.</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-<body>
-  <!-- Header -->
-  <header id="header">
-    <div class="inner">
-      <a href="index.html" class="logo">MajiriEyowel</a>
-      <nav id="nav">
+<body class="index-page">
 
-        <a href="resume/MAJIRI EYOWEL RESUME.pdf" download="MAJIRI EYOWEL RESUME">Download RÉSUMÉ
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-          <svg style="position: relative;
-            fill: #fc6d1b;
-            top: 7px;" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-            fill="#000000">
-            <path d="M0 0h24v24H0V0z" fill="none" />
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zm-8 2V5h2v6h1.17L12 13.17 9.83 11H11zm-6 7h14v2H5z" />
-          </svg>
-        </a </nav>
+    <div class="profile-img">
+      <img src="assets/img/majiri-capeverde.jpg" alt="Majiri Eyowel vacation in cape verde"
+        class="img-fluid rounded-circle">
     </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Majiri Eyowel</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a target="_blank" href="https://github.com/majirieyowel" class="github"><i class="bi bi-github"></i></a>
+      <a target="_blank" href="https://x.com/majiri_eyowel" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a target="_blank" href="https://www.instagram.com/majirieyowel/" class="instagram"><i
+          class="bi bi-instagram"></i></a>
+      <a target="_blank" href="https://linkedin.com/in/majiri-eyowel" class="linkedin"><i
+          class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
   </header>
-  <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-  <!-- Banner -->
-  <section id="banner">
-    <div class="inner">
-      <h1 class="ml9">
-        <span class="text-wrapper">
-          <span class="letters">Hi!, I'm a full stack developer.</span>
-        </span>
-      </h1>
-    </div>
-    <div class="social-icons">
+  <main class="main">
 
-      <a target="_blank" href="https://linkedin.com/in/majiri-eyowel"><i class="fa social-icon fa-linkedin-square"
-          aria-hidden="true"></i></a>
-      <a target="_blank" href="https://github.com/majirieyowel"><i class="fa social-icon fa-github"
-          aria-hidden="true"></i></a>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-  <section id="blog">
-    <div class="inner">
-      <header>
-        <h2>Projects</h2>
-      </header>
-      <div class="blog-grid">
-        <a target="_blank" href="https://prelaunch.eros.ng">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/eros/image.jpg" alt="" />
-              </div>
+      <img src="assets/img/beach-dogs.jpg" alt="" data-aos="fade-in" class="">
 
-              <p>
-                EROS DATING
-              </p>
-            </div>
-          </article>
-        </a>
-        <a target="_blank" href="http://app.orangeonefinance.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/oofl/image.jpg" alt="" />
-              </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h1>Majiri Eyowel</h1>
 
-              <p>
-                ORANGE ONE FINANCE
-              </p>
-            </div>
-          </article>
-        </a>
-        <a target="_blank" href="https://ciiang.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/ciia/image.jpg" alt="" />
-              </div>
-              <p>
-                Corporate and Individual Investment Advisers
-              </p>
-            </div>
-          </article>
-        </a>
+        <p>I'm <span class="typed"
+            data-typed-items="a software engineer, an analytic thinker, a problem solver, a dog person, a beach lover">Designer</span><span
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+            class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
 
-        <a target="_blank" href="https://www.kingsthronesng.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/kingthrones/image.jpg" alt="" />
-              </div>
-
-              <p>
-                KINGTHRONES INVESTMENT
-              </p>
-            </div>
-          </article>
-        </a>
-
-        <a target="_blank" href="https://meristemng.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/meristem/image.jpg" alt="" />
-              </div>
-
-              <p>
-                MERISTEM
-              </p>
-            </div>
-          </article>
-        </a>
-
-        <a target="_blank" href="https://avmccharvest.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/avmcc/image.jpg" alt="" />
-              </div>
-
-              <p>
-                ARCHBISHIP VINING MEMORIAL CHURCH CATHEDRAL
-              </p>
-            </div>
-          </article>
-        </a>
-        <a target="_blank" href="https://fantastic-fairy-25d5d6.netlify.app/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/meristem/Loan amortization table.jpg" alt="" />
-              </div>
-
-              <p>
-                MERISTEM LOAN CALCULATOR WITH GENERATED AMORTIZATION TABLE
-              </p>
-            </div>
-          </article>
-        </a>
-
-        <a target="_blank" href="http://13.80.134.104/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/m-property/image.jpg" alt="" />
-              </div>
-
-              <p>
-                MERISTEM PROPERTY MANAGEMENT
-              </p>
-            </div>
-          </article>
-        </a>
-
-        <a target="_blank" href="https://www.businessiqafrica.com/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/b-iq/image.jpg" alt="" />
-              </div>
-
-              <p>
-                BUSINESSIQAFRICA
-              </p>
-            </div>
-          </article>
-        </a>
-
-
-        <a target="_blank" href="https://thenest.ng/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/nest/image.jpg" alt="" />
-              </div>
-
-              <p>
-                THE NEST INNOVATION HUB
-              </p>
-            </div>
-          </article>
-        </a>
-
-
-        <a target="_blank" href="http://thefoundry.ng/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/foundry/image.jpg" alt="" />
-              </div>
-
-              <p>
-                FOUNDRY
-              </p>
-            </div>
-          </article>
-        </a>
-
-        <a target="_blank" href="http://lastveb.sch.ng/">
-          <article>
-            <div class="content">
-              <div class="image fit">
-                <img src="images/projects/lastveb/image.jpg" alt="" />
-              </div>
-
-              <p>
-                LAGOS STATE TECHNICAL AND VOCATIONAL EDUCATION BOARD
-              </p>
-            </div>
-          </article>
-        </a>
       </div>
 
-    </div>
-  </section>
+    </section><!-- /Hero Section -->
 
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-  <section id="about">
-    <div class="inner">
-      <header>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
         <h2>About Me</h2>
-      </header>
-      <div class="about-grid">
-        <div class="about-grid-item">
-          <div class="image fit">
-            <img src="images/majiri-eyowel.jpg" alt="Majiri Eyowel's picture" />
+        <p>I’m a curious and versatile fullstack web developer dedicated to bringing cool experiences to life. I enjoy
+          crafting simple solutions to solve complex problems, constantly learning new techniques, tools, languages, and
+          frameworks to accomplish goals efficiently. When I’m not coding,
+          you’ll likely find me at the beach, soaking up the sun and playing with my dog (kiva), finding inspiration in
+          the
+          waves and the
+          joy of simple moments.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/majiri-eleko-beach.jpg" class="img-fluid" alt="">
           </div>
-        </div>
-        <div class="about-grid-item">
-          <div class="notebook">
+          <div class="col-lg-8 content">
+            <h2>Fullstack web developer</h2>
+            <p class="fst-italic py-3">
+              Here are some of the tools I’ve had hands-on experience with:
+            </p>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Javascript &middot; PHP
+                      &middot; Typescript &middot; Swift &middot; Elixir &middot; HTML/CSS</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Framworks:</strong> <span>Laravel &middot; Nodejs
+                      &middot; Express &middot; Nestjs &middot; Vue.js &middot; Phoenix</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Database:</strong> <span>PostgreSQL &middot; Redis
+                      &middot; Memcached &middot; MongoDB &middot; MySQL &middot; SQLite</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Technologies:</strong> <span>Docker &middot; Version
+                      Control &middot; AWS Services &middot; RabbitMQ &middot; Xcode &middot; Rest API &middot;
+                      GraphQL</span></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div style="margin-top: 40px;">
+            <h2 style="font-weight: 700;">What I bring to the table</h2>
+            <p class="">
+              &middot; Commitment to writing clean, maintainable, and well-documented code. Adhering to best practices and coding
+              standards.</p>
+
+            <p class="">
+              &middot; Proficiency in multiple programming languages, frameworks, and technologies.</p>
+
+            <p>&middot; Experience in managing projects, including planning, execution, and delivery.</p>
 
             <p>
-              I'm a full stack developer living in Lagos, Nigeria. I've been working as a web developer for 5 years.
-              The primary language I work with is PHP using the laravel framework. I also have good
-              understanding of Elixir/OTP (Phoenix framework), HTML, CSS, Javascript (VueJS/NuxtJs), PostgreSQL, MYSQL,
-              redis, rabbitMQ and docker.
-
-              Hire me by sending me an email at
-              <a style="color: #fd6c1d;" target="_blank" href="mailto:majirieyowel@gmail.com">majirieyowel@gmail.com</a>
+              &middot; Strong analytical skills to identify problems, troubleshoot issues, and come up with effective solutions.
             </p>
+
+            <p>&middot; Identifying potential risks and implementing strategies to mitigate them.</p>
+
+
           </div>
+
         </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Want to dive deeper into my awesomeness? Check out my resume by <a target="_blank"
+            href="assets/docs/Majiri-Eyowel-CV-2024-v2.pdf">clicking here!</a></p>
+
+            <div class="quote">
+              <p class="quote-quote"><span class="quote-sign">&ldquo;</span> <i>Impossible is for the unwilling</i><span class="quote-sign">&rdquo;</span></p>
+              <p class="quote-author">- John Keats</p>
+            </div>
+      </div><!-- End Section Title -->
+
+    </section><!-- /Resume Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Here are few of the cool projects I've tackled solo or with a trusty team—because sometimes teamwork makes
+          the dream
+          work, and sometimes it's just me and my laptop saving the day!.</p>
+      </div><!-- End Section Title -->
+
+      <section id="portfolio-details" class="portfolio-details section">
+
+        <!--Ridepay-->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider">
+
+
+                <div class="swiper-wrapper align-items-center">
+
+                  <div>
+                    <img src="assets/img/portfolio/ridepay.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Ridepay</h3>
+                <ul>
+                  <li><strong>Category</strong>: Payments</li>
+                  <li><strong>Client</strong>: Personal</li>
+                  <li><strong>Status</strong>: Development</li>
+                  <li><strong>Project URL</strong>: <a target="_blank" href="https://ridepay.ng">www.ridepay.ng</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  Ridepay is a transport payment service that speeds up transactions between drivers and passengers. The
+                  idea hit me when
+                  I found myself stuck on a bus, wishing I could pay electronically instead of fumbling for change.
+                  Ridepay solves this
+                  problem by letting users pay with a driver’s unique 4-digit code—making the whole process quicker,
+                  smoother, and way
+                  less awkward than counting coins!
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!--MORE-->
+        <div style="margin-top: 60px;" class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>MORE</h3>
+                <ul>
+                  <li><strong>Category</strong>: Education</li>
+                  <li><strong>Client</strong>: Ouranos Technologies Limited</li>
+                  <li><strong>Status</strong>: Live</li>
+                  <li><strong>Project URL</strong>: <a target="_blank"
+                      href="https://more.meristemng.com/">more.meristemng.com</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  MORE (Meristem Orientation For Rising Entrepreneurs) is an e-learning platform. As the lead
+                  engineer😎, I played a big role in developing this fantastic education project. It offers
+                  courses that teach
+                  people of all ages about investment and entrepreneurial skills, and even assigns mentors to guide them
+                  along the way.
+                  And at the end of the program, you get a shiny certificate to prove you’ve mastered the art of making
+                  smart moves.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider">
+
+
+                <div class="swiper-wrapper align-items-center">
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/more.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+        <!--Spenda-->
+        <div style="margin-top: 60px;" class="container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-8">
+              <div class="portfolio-details-slider swiper init-swiper">
+
+                <script type="application/json" class="swiper-config">
+                              {
+                                "loop": true,
+                                "speed": 600,
+                                "autoplay": {
+                                  "delay": 5000
+                                },
+                                "slidesPerView": "auto",
+                                "pagination": {
+                                  "el": ".swiper-pagination",
+                                  "type": "bullets",
+                                  "clickable": true
+                                }
+                              }
+                            </script>
+
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <img src="assets/img/portfolio/spenda.png" alt="">
+                  </div>
+
+                  <div style="text-align: center;" class="swiper-slide">
+                    <img style="width: 300px;" src="assets/img/portfolio/spenda1.png" alt="">
+                  </div>
+
+                  <div style="text-align: center;" class="swiper-slide">
+                    <img style="width: 300px;" width="100px" src="assets/img/portfolio/spenda2.png" alt="">
+                  </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Spenda</h3>
+                <ul>
+                  <li><strong>Category</strong>: Finance</li>
+                  <li><strong>Client</strong>: Personal</li>
+                  <li><strong>Status</strong>: Almost there 😉</li>
+                  <li><strong>Project URL</strong>: <a target="_blank" href="https://spenda.ng">www.spenda.ng</a></li>
+                </ul>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  Spenda is my weekend project, inspired by my need for an easy way to track my expenses and make
+                  smarter financial
+                  decisions. With Spenda, I can log my transactions directly from a WhatsApp chat and get reminders on
+                  the days I
+                  forget—because, let’s face it, we all need a nudge sometimes! What started as a simple tool for my
+                  personal use has
+                  grown far beyond its original scope, but I’m loving every twist and turn of the journey.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section><!-- /Portfolio Details Section -->
+
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Got an idea you’re itching to bring to life? Reach out, and let’s turn that dream into reality together!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Phone number</h3>
+                  <p><a href="tel:+23481081270">+23481081270</a></p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email</h3>
+                  <p> <a href="mailto:majirieyowel@gmail.com">majirieyowel@gmail.com</a></p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </section>
 
-  <!-- Scripts -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH49EXLY1E"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  </footer>
 
-    gtag('config', 'G-HH49EXLY1E');
-  </script>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/util.js"></script>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HH49EXLY1E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-HH49EXLY1E');
+    </script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
